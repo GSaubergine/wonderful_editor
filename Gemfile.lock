@@ -319,6 +319,7 @@ DEPENDENCIES
   rails (~> 6.1.7, >= 6.1.7.1)
   rspec-rails
   rubocop
+  rubocop-capybara
   rubocop-performance
   rubocop-rails
   rubocop-rspec
