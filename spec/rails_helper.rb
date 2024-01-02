@@ -62,4 +62,8 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
+  config.define_derived_metadata do |meta|
+    meta[:aggregate_failures] = true unless meta.has_key?(:aggregate_failures)
+  end
 end
